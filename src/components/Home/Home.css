@@ -1,0 +1,64 @@
+.image{
+    
+  width: 100%;
+ height: 500px;  object-fit: cover;
+
+}
+.container{
+    margin: 3rem 0rem;
+}
+
+section{
+    margin-top: 40px;
+  }
+  .card {
+    
+    margin: 10px 4px;
+    transition: .6s ease;
+    padding: 0;
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card-img-top {
+    width: 100%;
+    height: 200px; /* Set a fixed height or adjust as needed */
+    object-fit: cover; /* Ensures the image covers the div without distortion */
+  }
+  .image-text {
+    position: absolute;
+    bottom: 10px; /* Adjust the positioning as needed */
+    left: 10px; /* Adjust the positioning as needed */
+    color: white; /* Adjust text color for better contrast */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background to the text for better readability */
+    padding: 5px; /* Optional: Add padding to the text */
+    border-radius: 3px; /* Optional: Add border-radius to the text background */
+  }
+
+  
+  .card-block {
+     padding: 10px;
+     
+  }
+  
+  .scrollcards {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      background: transparent;
+  }
+  
+  div.scrollcards .card {
+      display: inline-block;
+      
+      text-decoration: none;
+      height: auto; 
+      width: 350px;
+  }
