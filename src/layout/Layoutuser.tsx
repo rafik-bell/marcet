@@ -22,6 +22,7 @@ const Layoutuser = ({ children }) => {
                 });
 
                 if (!response.ok) {
+                    window.location.reload();
                     navigate("/login")
                 }
 
